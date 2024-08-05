@@ -1,0 +1,298 @@
+@media screen and (max-width:1250px) {
+    .question-section .ques-area {
+        margin-inline: unset;
+    }
+
+    .question-section .ques-area div {
+        height: 14vh;
+    }
+
+    .question-section .ques-area p {
+        font-size: 1.3rem;
+    }
+
+    .section {
+        justify-content: space-between;
+    }
+
+    .box .top-banner .left-image {
+        width: 18%;
+    }
+
+    .box .text-area .email-section input {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2.3rem;
+    }
+
+    .box .text-area p {
+        font-size: 1.2rem;
+    }
+
+    .question-section .email-section .paragraph {
+        font-size: 1.3rem;
+    }
+
+    .question-section .ques-area div i {
+        font-size: 1.3rem;
+    }
+
+    /* Tv-area */
+    .tv-area,
+    .watch-section {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .tv-area .left-side {
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+
+    .tv-area .left-side .paragraph {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .tv-area .right-side {
+        width: 55%;
+        height: 45vh;
+        margin-bottom: 15%;
+    }
+
+    /* Show-area  */
+    .show-section,
+    .kids-section {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+    .show-section .left-side {
+        width: 55%;
+        height: 45vh;
+        margin-bottom: 15%;
+    }
+
+    .show-section .right-side {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+
+    .show-section .right-side .heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .show-section .right-side .paragraph {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    /* watch-section */
+    .watch-section .left-side {
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+
+    .watch-section .left-side .paragraph {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .watch-section .right-side {
+        width: 55%;
+        height: 45vh;
+        margin-bottom: 15%;
+    }
+
+    /* kids-section */
+    .kids-section .left-side {
+        width: 55%;
+        height: 45vh;
+        margin-bottom: 15%;
+    }
+
+    .kids-section .right-side {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+
+    .kids-section .right-side .heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .kids-section .right-side .paragraph {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .container {
+        padding-inline: 20px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .box .text-area .email-section input {
+        width: 45vw;
+    }
+
+    .tv-area .left-side .paragraph {
+        font-size: 1rem;
+    }
+
+    .show-section .right-side .paragraph {
+        font-size: 1rem;
+    }
+
+    .watch-section .left-side .paragraph {
+        font-size: 1rem;
+    }
+
+    .kids-section .right-side .paragraph {
+        font-size: 1rem;
+    }
+
+    .question-section .ques-area p {
+        font-size: 1.2rem;
+    }
+
+    .question-section .ques-area div i {
+        font-size: 1.2rem;
+    }
+
+    .question-section .email-section .paragraph {
+        font-size: 1.1rem;
+    }
+
+    .question-section .get-started-area input {
+        width: 42vw;
+    }
+}
+
+@media screen and (max-width:760px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .footer-section .footer-parts {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .footer-section .footer-parts .footer {
+        width: 45%;
+    }
+
+    .box .text-area .email-section {
+        flex-direction: column;
+    }
+
+    .box .text-area .email-section input {
+        width: 70vw;
+    }
+
+    .box .text-area .button {
+        margin: auto;
+    }
+
+    .box .text-area .heading {
+        text-align: center;
+    }
+
+    .box .text-area p {
+        font-size: 1rem;
+    }
+
+    .question-section .get-started-area {
+        flex-direction: column;
+    }
+
+    .box .text-area .email-section {
+        flex-direction: column;
+    }
+
+    .question-section .get-started-area input {
+        width: 60vw;
+    }
+
+    .question-section .get-started-area .button {
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .box .top-banner {
+        flex-direction: column;
+        justify-content: unset;
+        height: fit-content;
+        align-items: unset;
+        gap: 10px;
+    }
+
+    .box .top-banner .left-image {
+        width: 46%;
+    }
+
+    .box .text-area {
+        margin-top: 16%;
+    }
+
+    .box .top-banner .right-side {
+        column-gap: 10px;
+    }
+
+    .box .top-banner .right-side .primary-button {
+        padding-inline: 20px;
+    }
+
+    .question-section .get-started-area input {
+        width: 80vw;
+    }
+    .tv-area .right-side {
+        width: 55%;
+        height: 35vh;
+        margin-bottom: 8%;
+    }
+    .show-section .left-side {
+        width: 55%;
+        height: 35vh;
+        margin-bottom: 8%;
+    }
+    .watch-section .right-side {
+        width: 55%;
+        height: 35vh;
+        margin-bottom: 8%;
+    }
+    .kids-section .left-side {
+        width: 55%;
+        height: 35vh;
+        margin-bottom: 8%;
+    }
+}
